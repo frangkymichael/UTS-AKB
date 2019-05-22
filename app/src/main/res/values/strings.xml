@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="_670323">670323</string>
+    <string name="fairuz">Fairuz</string>
+    <string name="kelas">kelas</string>
+    <string name="description">Description</string>
+    <string name="todo">TODO</string>
+    <string name="_10116569">10116569</string>
+    <string name="frangky_michael">Frangky Michael</string>
+    <string name="if_13">IF-13</string>
+    <string name="mahasiswa_teknik_informatika_unikom">Mahasiswa Teknik Informatika UNIKOM</string>
+</resources>

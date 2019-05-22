@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.fragmentkontak">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="629dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/kontak" />
+
+        <TextView
+            android:id="@+id/text_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:textColor="#000000"
+            android:textColorLink="#FF0000"
+            android:text="089680517559" />
+
+        <TextView
+            android:id="@+id/text_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:textColor="#000000"
+            android:textColorLink="#FF0000"
+            android:text="Frangkymichael97@gmail.com" />
+
+        <TextView
+            android:id="@+id/text_social_media"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:textColor="#000000"
+            android:textColorLink="#FF0000"
+            android:text="instagram.com/frangkymichael97" />
+    </LinearLayout>
+
+</FrameLayout>

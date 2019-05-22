@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.fragmentprofil">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="400dp"
+            android:contentDescription="@string/todo"
+            android:src="@drawable/profil" />
+
+        <TextView
+            android:id="@+id/text_nim"
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:layout_margin="10dp"
+            android:text="@string/_10116569"
+            android:textColor="#000000"
+            android:textColorLink="#FF0000" />
+
+        <TextView
+            android:id="@+id/text_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/frangky_michael"
+            android:textColor="#000000"
+            android:textColorLink="#FF0000" />
+
+        <TextView
+            android:id="@+id/text_class"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/if_13"
+            android:textColor="#000000"
+            android:textColorLink="#FF0000" />
+
+        <TextView
+            android:id="@+id/text_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/mahasiswa_teknik_informatika_unikom"
+            android:textColor="#000000"
+            android:textColorLink="#FF0000" />
+    </LinearLayout>
+
+</FrameLayout>
